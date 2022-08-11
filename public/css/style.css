@@ -1,0 +1,138 @@
+.login {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+    margin-right: 3px;
+}
+.login:hover {
+    color: #930909;
+}
+.berita {
+    text-decoration: none;
+    color: #000;
+    margin-right: 3px;
+}
+.berita:hover {
+    color: #930909;
+}
+.red {
+    color: #930909;
+}
+.red-1 {
+    color: #930909;
+    text-decoration: none;
+    font-weight: 500;
+}
+.red-1:hover {
+    color: #930909;
+}
+a.red:hover {
+    color: #b91616;
+}
+.vl {
+    border-left: 2px solid #930909;
+    height: 250px;
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+}
+
+.separator .line {
+    flex: 1;
+    height: 3px;
+    background-color: #b6b7b7;
+    margin-left: 1rem;
+}
+.active-drop {
+    color: #930909;
+}
+.active-drop:hover {
+    color: #b91616;
+}
+.btn-base {
+    background-color: #930909;
+    color: #ffffff;
+    font-weight: 700;
+}
+.btn-base:hover {
+    background-color: #b91616;
+    color: #ffffff;
+}
+.btn-login {
+    background-color: #930909;
+    color: #ffffff;
+    font-weight: 600;
+}
+.btn-login:hover {
+    background-color: #b91616;
+    color: #ffffff;
+}
+
+.icon-footer {
+    color: #fff;
+}
+.icon-footer:hover {
+    color: #e4e1e1;
+}
+.pengumuman-card {
+    text-decoration: none;
+    color: #000;
+}
+.pengumuman-card:hover {
+    color: #930909;
+}
+.berita-card {
+    text-decoration: none;
+    color: #000;
+}
+.berita-card:hover {
+    color: #930909;
+}
+
+.medium {
+    font-weight: 500;
+}
+.semi-bold {
+    font-weight: 600;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.active-nav {
+    color: #930909;
+    border-bottom: 2px solid #930909;
+}
+.active-nav:hover {
+    color: #930909;
+}
+@media screen and (max-width: 1000px) {
+    .vl {
+        display: none;
+    }
+}
+.pembayaran {
+    color: #fff;
+    text-decoration: none;
+}
+.pembayaran:hover {
+    color: #fff;
+}
+
+.carousel-indicators button {
+    height: 10px !important;
+    width: 10px !important;
+    margin: 0 10px !important;
+    border-radius: 100%;
+    background-color: #bbbbbb !important;
+}
+.carousel-indicators button.active {
+    background-color: #ce1212 !important;
+}
+
+ol.paragraf {
+    padding-left: 15px;
+}
