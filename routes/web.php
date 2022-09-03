@@ -1,5 +1,8 @@
 <?php
 
+use App\Http\Controllers\BeritaController;
+use App\Http\Controllers\PengumumanController;
+use App\Models\Pengumuman;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -69,3 +72,10 @@ Route::get('/struktur-organisasi',function(){
 });
 
 /*Akhir route Profil */ 
+
+Route::get('/dashboard',function(){
+    return view('dashboard.index');
+});
+
+Route::resource('dashboard/pengumuman', PengumumanController::class);
+Route::resource('dashboard/berita', BeritaController::class);

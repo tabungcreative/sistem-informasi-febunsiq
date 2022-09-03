@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Pengumuman;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Storage;
 
 class PengumumanController extends Controller
 {
@@ -15,6 +16,9 @@ class PengumumanController extends Controller
     public function index()
     {
         //
+        return view('dashboard.pengumuman.index',[
+            "pengumuman"=>Pengumuman::latest()->get()
+        ]);
     }
 
     /**
@@ -25,6 +29,7 @@ class PengumumanController extends Controller
     public function create()
     {
         //
+        return view('dashboard.pengumuman.create');
     }
 
     /**
@@ -35,7 +40,20 @@ class PengumumanController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        // 
+        $validatedData = $request->validate([
+            'judul' => 'required|max:255',
+            'isi' => 'required',
+            'file' => 'mimes:pdf,xls,xlsx,doc,docx|file|max:2024',
+        ]);
+
+        if ($request->file('file')) {
+            $validatedData['file']=$request->file('file')->store('file-pengumuman');
+        }
+
+        Pengumuman::create($validatedData); 
+
+        return redirect('/dashboard/pengumuman')->with('success','Pengumuman berhasil ditambahkan!');
     }
 
     /**
@@ -47,6 +65,10 @@ class PengumumanController extends Controller
     public function show(Pengumuman $pengumuman)
     {
         //
+        //
+        return view('dashboard.pengumuman.show',[
+            'pengumuman'=>$pengumuman
+        ]);
     }
 
     /**
@@ -58,6 +80,9 @@ class PengumumanController extends Controller
     public function edit(Pengumuman $pengumuman)
     {
         //
+        return view('dashboard.pengumuman.edit',[
+            'pengumuman'=>$pengumuman,
+        ]);
     }
 
     /**
@@ -69,7 +94,26 @@ class PengumumanController extends Controller
      */
     public function update(Request $request, Pengumuman $pengumuman)
     {
-        //
+        
+        $rules = [
+            'judul' => 'required|max:255',
+            'isi' => 'required',
+            'file' => 'mimes:pdf,xls,xlsx,doc,docx|file|max:2024',
+        ];
+
+        $validatedData=$request->validate($rules);
+
+        if ($request->file('file')) {
+            if ($request->oldImage) {
+                Storage::delete($request->oldImage);
+            }
+            $validatedData['file']=$request->file('file')->store('books-images');
+        }
+
+        Pengumuman::where('id',$pengumuman->id)
+            ->update($validatedData); 
+
+        return redirect('/dashboard/pengumuman')->with('success','Pengumuman berhasil diubah!');
     }
 
     /**
@@ -80,6 +124,12 @@ class PengumumanController extends Controller
      */
     public function destroy(Pengumuman $pengumuman)
     {
-        //
+        
+        if ($pengumuman->file) {
+            Storage::delete($pengumuman->file);
+        }
+        Pengumuman::destroy($pengumuman->id); 
+
+        return redirect('/dashboard/pengumuman')->with('success','Pengumuman berhasil dihapus!');
     }
 }
