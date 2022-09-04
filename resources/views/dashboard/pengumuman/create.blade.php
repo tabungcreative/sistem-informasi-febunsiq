@@ -37,18 +37,5 @@
             <button type="submit" class="btn btn-primary">Tambah Pengumuman</button>
         </form>
     </div>
-    <script>
-        // function previewImage() {
-        //     const file = document.querySelector('#file');
-        //     const imgPreview = document.querySelector('.img-preview');
-        
-        //     imgPreview.style.display='block';
-        //     const oFReader = new FileReader();
-        //     oFReader.readAsDataURL(file.files[0]);
-
-        //     oFReader.onload = function(oFREvent){
-        //         imgPreview.src=oFREvent.target.result;
-        //     }
-        // }
-    </script>
+    <script></script>
 @endsection

@@ -17,9 +17,9 @@
                 @enderror
             </div>
             <div class="mb-3">
-                <label for="file" class="form-label @error('file') is-invalid @enderror">Gambar Pengumuman</label>
+                <label for="file" class="form-label @error('file') is-invalid @enderror">File Pengumuman</label>
                 <input type="hidden" name="oldImage" value="{{$pengumuman->file}}">
-                <input class="form-control" type="file" id="file" name="file" onchange="previewImage()">
+                <input class="form-control" type="file" id="file" name="file">
                 @error('file')
                     <div class="invalid-feedback">
                         {{$message}}
@@ -38,18 +38,5 @@
             <button type="submit" class="btn btn-primary">Ubah Pengumuman</button>
         </form>
     </div>
-    <script>
-        // function previewImage() {
-        //     const file = document.querySelector('#gambar');
-        //     const imgPreview = document.querySelector('.img-preview');
-        
-        //     imgPreview.style.display='block';
-        //     const oFReader = new FileReader();
-        //     oFReader.readAsDataURL(gambar.files[0]);
-
-        //     oFReader.onload = function(oFREvent){
-        //         imgPreview.src=oFREvent.target.result;
-        //     }
-        // }
-    </script>
+    <script></script>
 @endsection

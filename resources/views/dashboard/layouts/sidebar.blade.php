@@ -19,6 +19,19 @@
 									Pengumuman
 								</a>
 							</li>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link {{Request::is('dashboard/file-unduhan*') ? 'active' : ''}}" href="/dashboard/file-unduhan">
+									<span data-feather="file-text"></span>
+									File Unduhan
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link {{Request::is('dashboard/file-unduhan*') ? 'active' : ''}}" href="/dashboard/file-unduhan">
+									<span data-feather="file-text"></span>
+									Mahasiswa
+								</a>
+							</li>
 						</ul>
 					</div>
 				</nav>

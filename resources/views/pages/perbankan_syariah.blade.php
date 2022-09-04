@@ -10,14 +10,14 @@
 				</div>
 				<div class="row" style="color: #505050">
 					<div class="col-lg-12">
-						<h5 class="h5">Sejarah Program Studi Manajemen</h5>
+						<h5 class="h5">Sejarah Program Studi Perbankan Syari'ah</h5>
 						<p>
-							Keinginan sebagian masyarakat muslim untuk menjalankan syariat Islam dalam segala aspek kehidupan semakin kencang, termasuk dalam hal bermuamalah, yang ditandai dengan semakin pesatnya perkembangan bank-bank syariah yang
-							menerapkan prinsip-prinsip syariat Islam, sehingga diperlukan tenaga Perbankan Syariah maupun Lembaga Keuangan Syariah yang profesional. Melihat realitas masyarakat dan peluang yang ada, Fakultas Syariah dan Hukum UNSIQ Jawa
-							Tengah di Wonosobo pada tahun 2014 membuka Program Studi S1 Perbankan Syariah.
+							Keinginan sebagian masyarakat muslim untuk menjalankan syariat Islam dalam segala aspek kehidupan semakin kencang, termasuk dalam hal bermuamalah, yang ditandai dengan semakin pesatnya perkembangan bank-bank syari'ah yang
+							menerapkan prinsip-prinsip syariat Islam, sehingga diperlukan tenaga Perbankan Syari'ah maupun Lembaga Keuangan Syari'ah yang profesional. Melihat realitas masyarakat dan peluang yang ada, Fakultas Syari'ah dan Hukum UNSIQ Jawa
+							Tengah di Wonosobo pada tahun 2014 membuka Program Studi S1 Perbankan Syari'ah.
 						</p>
 						<p>
-							Pembentukan Program Studi S1 Perbankan Syariah pertama-tama mengacu kepada Keputusan Direktur Jenderal Pendidikan Islam Kementerian Agama RI Nomor: Dj.I/Dt.I.IV/PP.00.9/1565/2014 tentang izin Pembukaan Program Studi S1 Pada
+							Pembentukan Program Studi S1 Perbankan Syari'ah pertama-tama mengacu kepada Keputusan Direktur Jenderal Pendidikan Islam Kementerian Agama RI Nomor: Dj.I/Dt.I.IV/PP.00.9/1565/2014 tentang izin Pembukaan Program Studi S1 Pada
 							Perguruan Tinggi Agama Islam Swasta Tahun 2014 yang ditandatangani oleh Direktur Jenderal Pendidikan Islam. 01 Juli 2014. Adapun Izin Operasional diberikan berdasarkan SK Direktur Jenderal Pendidikan Islam Nomor 3656 Tahun
 							2014 tanggal 01 Juli 2014. Dan tahun 2018 berdasarkan Surat Keputusan Badan Akreditasi Nasional Perguruan Tinggi Nomor: 1831/SK/BAN-PT/Akred/S/VII/2018 Program Studi Perbankan Syari’ah telah terakreditasi B. serta pada tahun
 							2021 Program Studi Perbankan Syari’ah bergabung di Fakultas Ekonomi dan Bisnis UNSIQ Jawa Tengah di Wonosobo berdasarkan Surat Keputusan Rektor Universitas Sains Al-Qur’an Nomor: 179/SK/UNSIQ/IX/2021.
