@@ -26,12 +26,12 @@
 									File Unduhan
 								</a>
 							</li>
-							<li class="nav-item">
-								<a class="nav-link {{Request::is('dashboard/file-unduhan*') ? 'active' : ''}}" href="/dashboard/file-unduhan">
+							{{-- <li class="nav-item">
+								<a class="nav-link {{Request::is('dashboard/dosen*') ? 'active' : ''}}" href="/dashboard/dosen">
 									<span data-feather="file-text"></span>
-									Mahasiswa
+									Dosen
 								</a>
-							</li>
+							</li> --}}
 						</ul>
 					</div>
 				</nav>

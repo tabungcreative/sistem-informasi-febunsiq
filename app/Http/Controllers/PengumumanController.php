@@ -65,7 +65,6 @@ class PengumumanController extends Controller
     public function show(Pengumuman $pengumuman)
     {
         //
-        //
         return view('dashboard.pengumuman.show',[
             'pengumuman'=>$pengumuman
         ]);
@@ -107,7 +106,7 @@ class PengumumanController extends Controller
             if ($request->oldImage) {
                 Storage::delete($request->oldImage);
             }
-            $validatedData['file']=$request->file('file')->store('books-images');
+            $validatedData['file']=$request->file('file')->store('file-pengumuman');
         }
 
         Pengumuman::where('id',$pengumuman->id)
@@ -124,7 +123,6 @@ class PengumumanController extends Controller
      */
     public function destroy(Pengumuman $pengumuman)
     {
-        
         if ($pengumuman->file) {
             Storage::delete($pengumuman->file);
         }
