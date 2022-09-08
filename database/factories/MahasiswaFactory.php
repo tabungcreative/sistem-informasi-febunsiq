@@ -22,7 +22,10 @@ class MahasiswaFactory extends Factory
             'nama' => fake()->name(),
             'prodi' => Arr::random(['Manajemen', 'Akuntansi', 'Perbankan Syariah']),
             'jenis_kelamin' => Arr::random(['L', 'P']),
-            'nomer_hp' => fake()->phoneNumber()
+            'nomer_hp' => fake()->phoneNumber(),
+            'tempat_lahir' => fake()->city(),
+            'tanggal_lahir' => fake()->date(),
+            'nik' => fake()->uuid(),
         ];
     }
 }

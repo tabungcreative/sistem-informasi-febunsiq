@@ -10,8 +10,16 @@ class MahasiswaController extends Controller
 {
     public function index()
     {
-        $mahasiswa = Mahasiswa::all();
+        $mahasiswa = Mahasiswa::all(); 
+        return response()->json([
+            'status' => 'success',
+            'data' => $mahasiswa
+        ]);
+    }
 
+    public function show($nim)
+    {
+        $mahasiswa = Mahasiswa::where('nim', $nim)->first();
         return response()->json([
             'status' => 'success',
             'data' => $mahasiswa
