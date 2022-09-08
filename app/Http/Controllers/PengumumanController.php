@@ -48,7 +48,7 @@ class PengumumanController extends Controller
         ]);
 
         if ($request->file('file')) {
-            $validatedData['file']=$request->file('file')->store('file-pengumuman');
+            $validatedData['file']=$request->file('file')->store('public/pengumuman');
         }
 
         Pengumuman::create($validatedData); 
@@ -106,7 +106,7 @@ class PengumumanController extends Controller
             if ($request->oldImage) {
                 Storage::delete($request->oldImage);
             }
-            $validatedData['file']=$request->file('file')->store('file-pengumuman');
+            $validatedData['file']=$request->file('file')->store('public/pengumuman');
         }
 
         Pengumuman::where('id',$pengumuman->id)
