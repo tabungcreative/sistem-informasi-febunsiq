@@ -49,7 +49,7 @@ class BeritaController extends Controller
         ]);
 
         if ($request->file('gambar')) {
-            $validatedData['gambar']=$request->file('gambar')->store('public/berita');
+            $validatedData['gambar']=$request->file('gambar')->store('gambar-berita');
         }
 
         Berita::create($validatedData); 
@@ -113,7 +113,7 @@ class BeritaController extends Controller
             if ($request->oldImage) {
                 Storage::delete($request->oldImage);
             }
-            $validatedData['gambar']=$request->file('gambar')->store('public/berita');
+            $validatedData['gambar']=$request->file('gambar')->store('gambar-berita');
         }
 
         Berita::where('id',$berita->id)

@@ -49,7 +49,7 @@ class FileUnduhanController extends Controller
         ]);
 
         if ($request->file('file')) {
-            $validatedData['file']=$request->file('file')->store('public/unduhan');
+            $validatedData['file']=$request->file('file')->store('file-unduhan');
         }
 
         FileUnduhan::create($validatedData); 
@@ -109,7 +109,7 @@ class FileUnduhanController extends Controller
             if ($request->oldImage) {
                 Storage::delete($request->oldImage);
             }
-            $validatedData['file']=$request->file('file')->store('public/unduhan');
+            $validatedData['file']=$request->file('file')->store('file-unduhan');
         }
 
         FileUnduhan::where('id',$fileunduhan->id)
