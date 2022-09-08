@@ -1,5 +1,10 @@
 <?php
 
+use App\Http\Controllers\BeritaController;
+use App\Http\Controllers\DosenController;
+use App\Http\Controllers\FileUnduhanController;
+use App\Http\Controllers\LoginController;
+use App\Http\Controllers\PengumumanController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -69,3 +74,18 @@ Route::get('/struktur-organisasi',function(){
 });
 
 /*Akhir route Profil */ 
+
+Route::get('/dashboard',function(){
+    return view('dashboard.index');
+});
+
+// login
+Route::get('/login',[LoginController::class,'index'])->name('login')->middleware('guest');
+Route::post('/login',[LoginController::class,'authenticate']);
+Route::post('/logout',[LoginController::class,'logout']);
+
+Route::resource('dashboard/pengumuman', PengumumanController::class)->middleware('auth');
+Route::resource('dashboard/berita', BeritaController::class)->middleware('auth');
+Route::resource('dashboard/file-unduhan', FileUnduhanController::class)->middleware('auth');
+Route::resource('dashboard/dosen', DosenController::class)->middleware('auth');
+

@@ -10,6 +10,7 @@ class MahasiswaController extends Controller
 {
     public function index()
     {
+
         $mahasiswa = Mahasiswa::all(); 
         return response()->json([
             'status' => 'success',

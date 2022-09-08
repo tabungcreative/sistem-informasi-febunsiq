@@ -230,7 +230,7 @@
 									<div class="card-body">
 										<div class="d-grid gap-2">
 											<img class="card-img-top" src="{{'/images/img.jpg'}}" alt="image pengumuman" style="height: 200px" />
-											<a href="" class="btn btn-xl btn-base mt-3">Class Exclusive</a>
+											<a href="" class="btn btn-xl btn-base mt-3">Kelas Eksekutif</a>
 										</div>
 									</div>
 								</div>
@@ -240,7 +240,7 @@
 									<div class="card-body">
 										<div class="d-grid gap-2">
 											<img class="card-img-top" src="{{'/images/img.jpg'}}" alt="image pengumuman" style="height: 200px" />
-											<a href="" class="btn btn-xl btn-base mt-3">Class Karyawan</a>
+											<a href="" class="btn btn-xl btn-base mt-3">Kelas Karyawan</a>
 										</div>
 									</div>
 								</div>
