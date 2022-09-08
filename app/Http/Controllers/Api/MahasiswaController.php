@@ -22,9 +22,15 @@ class MahasiswaController extends Controller
     {
         $mahasiswa = Mahasiswa::where('nim', $nim)->first();
 
+        if ($mahasiswa != null) {
+            return response()->json([
+                'status' => 'success',
+                'data' => $mahasiswa
+            ]);
+        }
+
         return response()->json([
-            'status' => 'success',
-            'data' => $mahasiswa
-        ]);
+            'message' => "data mahasiswa tidak ditemukan",
+        ], 404);
     }
 }
