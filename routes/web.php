@@ -5,6 +5,7 @@ use App\Http\Controllers\DosenController;
 use App\Http\Controllers\FileUnduhanController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\PengumumanController;
+use App\Http\Controllers\ShowController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -18,9 +19,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 // route index
-Route::get('/', function () {
-    return view('pages.index');
-});
+Route::get('/', [ShowController::class,'index']);
 
 Route::get('/berita', function () {
     return view('pages.berita');

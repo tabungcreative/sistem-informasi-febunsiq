@@ -10,7 +10,7 @@
 				</div>
 				<div class="row" style="color: #505050">
 					<div class="col-lg-12">
-						<h5 class="h5">Sejarah Program Studi Akuntasi</h5>
+						<h5 class="h5">Sejarah</h5>
 						<p>
 							Keberadaan Program Studi Akuntansi sebagai jawaban dari tuntutan yang ada dan sekaligus menjadi tantangan bagi Fakultas Ekonomi dan Bisnis UNSIQ Program Studi Akuntansi untuk menghasilkan para lulusan yang mempunyai kompetensi
 							teknis, ketrampilan professional serta dibekali nilai-nilai etika, religius, bertanggung jawab penuh terhadap pekerjaan yang diselesaikannya, memiliki wawasan ilmu pengetahuan dan siap bekerja dalam lingkungan manapun serta

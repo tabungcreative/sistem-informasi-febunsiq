@@ -1,14 +1,14 @@
 <!-- Hero -->
-	<div id="carousel-banner" class="carousel slide" data-bs-ride="true" style="position: relative">
+	<div id="carousel-banner" class="carousel slide carousel-fade" data-bs-ride="true" style="position: relative">
 		<div class="carousel-inner">
 			<div class="carousel-item active">
-				<img src="{{'images/BANNER1.png'}}" class="d-block w-100" alt="..." />
+				<img src="{{'images/BANNER_1.png'}}" class="d-block w-100" alt="..." />
 			</div>
 			<div class="carousel-item">
-				<img src="{{'images/BANNER1.png'}}" class="d-block w-100" alt="..." />
+				<img src="{{'images/BANNER_2.png'}}" class="d-block w-100" alt="..." />
 			</div>
 			<div class="carousel-item">
-				<img src="{{'images/BANNER1.png'}}" class="d-block w-100" alt="..." />
+				<img src="{{'images/BANNER_1.png'}}" class="d-block w-100" alt="..." />
 			</div>
 		</div>
 		<div class="carousel-indicators" style="position: relative">

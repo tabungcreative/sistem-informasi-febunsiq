@@ -10,7 +10,7 @@
 				</div>
 				<div class="row" style="color: #505050">
 					<div class="col-lg-12">
-						<h5 class="h5">Sejarah Program Studi Perbankan Syari'ah</h5>
+						<h5 class="h5">Sejarah</h5>
 						<p>
 							Keinginan sebagian masyarakat muslim untuk menjalankan syariat Islam dalam segala aspek kehidupan semakin kencang, termasuk dalam hal bermuamalah, yang ditandai dengan semakin pesatnya perkembangan bank-bank syari'ah yang
 							menerapkan prinsip-prinsip syariat Islam, sehingga diperlukan tenaga Perbankan Syari'ah maupun Lembaga Keuangan Syari'ah yang profesional. Melihat realitas masyarakat dan peluang yang ada, Fakultas Syari'ah dan Hukum UNSIQ Jawa
@@ -37,7 +37,7 @@
 							<li>Menjalin kerjasama dengan masyarakat dan lembaga baik dalam negeri maupun luar negeri.</li>
 						</ol>
 
-						<h5 class="h5 mt-5">3. Tujuan Program Studi</h5>
+						<h5 class="h5 mt-5">3. Tujuan </h5>
 						<ol class="paragraf">
 							<li>Menghasilkan lulusan yang mampu mentransformasikan ilmu ekonomi Islami Islam yang kreatif dan inovatif berlandaskan nilai-nilai Al-Qur’an.</li>
 							<li>Menghasilkan karya penelitian yang mampu menjawab persoalan masyarakat di bidang kewirausahaan sehingga dapat meningkatkan harkat dan martabat manusia.</li>
@@ -46,7 +46,7 @@
 							<li>Menghasilkan jejaring Kerjasama dengan masyarakat dan Lembaga Keuangan Syari’ah baik dalam maupun luar negeri untuk mengoptimalkan budaya akademik.</li>
 						</ol>
 
-						<h5 class="h5 mt-5">4. Sasaran Program Studi</h5>
+						<h5 class="h5 mt-5">4. Sasaran</h5>
 						<ol class="paragraf">
 							<li>Agar lulusan mampu menganalisis dan memberikan solusi permasalahan ekonomi Islam di masyarakat.</li>
 							<li>Agar lulusan mampu mengaplikasikan ilmu ekonomi Islami di bidang kewirausaan sesuai dengan kompetensi.</li>
@@ -54,7 +54,7 @@
 							<li>Agar kualitas kinerja Lembaga meningkat secara berkesinambungan.</li>
 							<li>Agar dapat mengembangkan dan meningkatkan kualitas Tri Darma Perguruan Tinggi lembaga.</li>
 						</ol>
-						<h5 class="h5 mt-5">5. Strategi Program Studi</h5>
+						<h5 class="h5 mt-5">5. Strategi</h5>
 						<ol class="paragraf">
 							<li>Melakukan penataan kurikulum yang memadukan ilmu Al Quran dan ilmu ekonomi Islami dengan nilai-nilai kepesantrenan.</li>
 							<li>Memfasilitasi kegiatan penelitian dan melakukan pemutakhiran hasil penelitian secara berkala agar lebih bermanfaat bagi masyarakat.</li>

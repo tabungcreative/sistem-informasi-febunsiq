@@ -10,7 +10,7 @@
 				</div>
 				<div class="row" style="color: #505050">
 					<div class="col-lg-12">
-						<h5 class="h5">Sejarah Program Studi Manajemen</h5>
+						<h5 class="h5">Sejarah</h5>
 						<p>
 							Manajemen yang baik membuat tugas yang sulit menjadi lebih mudah dengan menghindari pemborosan sumber daya yang langkManajemen yang efisien mengarah pada produksi ekonomi yang lebih baik yang membantu untuk meningkatkan
 							kesejahteraan masyarakat. Manajemen ini adalah salah satu jurusan dari fakultas Ekonomi dan Bisnis UNSIQ yang banyak diminati oleh mahasiswJurusan manajemen sendiri juga memiliki keunggulan, yaitu prospek kerja kedepannya yang
@@ -36,7 +36,7 @@
 							<li>Menjalin dan mengimplementasikan kerjasama dengan pihak dalam negeri maupun luar negeri dalam upaya peningkatan kualitas lulusan.</li>
 						</ol>
 
-						<h5 class="h5 mt-5">3. Tujuan Program Studi</h5>
+						<h5 class="h5 mt-5">3. Tujuan</h5>
 						<ol class="paragraf">
 							<li>Menghasilkan Sarjana Manajemen yang mempunyai pengetahuan, pemahaman dan keterampilan manajerial, kepemimpinan dan kewirausahaan yang Humanis Transformatif dan Qur’ani.</li>
 							<li>Menghasilkan Sarjana Manajemen yang profesional, mandiri, berkarakter, berwawasan global, dan mampu memberi kontribusi pada kemajuan ilmu pengetahuan, teknologi serta memiliki jiwa Enterpreneur.</li>
@@ -48,7 +48,7 @@
 							<li>Mewujudkan Kualitas Lulusan yang siap Kerja, Siap Berwirausaha dengan kerjasama dengan stakeholder di dalam negeri dan luar negeri.</li>
 						</ol>
 
-						<h5 class="h5 mt-5">4. Sasaran Program Studi</h5>
+						<h5 class="h5 mt-5">4. Sasaran</h5>
 						<ol class="paragraf" type="a">
 							<li>Agar lulusan mampu menganalisis dan memberikan solusi permasalahan Manajemen di masyarakat.</li>
 							<li>Agar lulusan mampu mengaplikasikan ilmu Manajemen di bidang kewirausaan sesuai dengan kompetensi.</li>
@@ -56,7 +56,7 @@
 							<li>Agar kualitas kinerja Lembaga, Personal meningkat secara berkesinambungan.</li>
 							<li>Agar dapat mengembangkan dan meningkatkan kualitas Tri Darma Perguruan Tinggi lembaga.</li>
 						</ol>
-						<h5 class="h5 mt-5">5. Strategi Program Studi</h5>
+						<h5 class="h5 mt-5">5. Strategi</h5>
 						<ol class="paragraf" type="a">
 							<li>Melakukan penataan kurikulum yang memadukan Ilmu Al Quran dan ilmu Manjemen dengan nilai-nilai Pengetahuan Umum dan Kepesatrenan.</li>
 							<li>Memfasilitasi kegiatan penelitian dan melakukan pemutakhiran hasil penelitian secara berkala agar lebih bermanfaat bagi masyarakat.</li>

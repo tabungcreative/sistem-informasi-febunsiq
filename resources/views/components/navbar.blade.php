@@ -22,6 +22,16 @@
 					<a class="nav-link {{ Request::is('/') ? 'active-nav' : '' }}" href="/">Beranda</a>
 				</li>
 				<li class="nav-item ms-3 dropdown" style="font-weight: 600">
+					<a class="nav-link dropdown-toggle {{ Request::is('sejarah-feb') ? 'active-nav' : '' }} {{ Request::is('visi-misi-feb') ? 'active-nav' : '' }} {{ Request::is('struktur-organisasi') ? 'active-nav' : '' }}" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Profil </a>
+					<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<li><a class="dropdown-item {{ Request::is('sejarah-feb') ? 'active-drop' : '' }}" href="/sejarah-feb">Sejarah</a></li>
+						<li><a class="dropdown-item {{ Request::is('visi-misi-feb') ? 'active-drop' : '' }}" href="/visi-misi-feb">Visi Misi</a></li>
+						<li><a class="dropdown-item {{ Request::is('dosen-feb') ? 'active-drop' : '' }}" href="/dosen-feb">Dosen</a></li>
+						<li><a class="dropdown-item {{ Request::is('fasilitas-feb') ? 'active-drop' : '' }}" href="/fasilitas-feb">Fasilitas</a></li>
+						<li><a class="dropdown-item {{ Request::is('struktur-organisasi') ? 'active-drop' : '' }}" href="/struktur-organisasi">Struktur Organisasi</a></li>
+					</ul>
+				</li>
+				<li class="nav-item ms-3 dropdown" style="font-weight: 600">
 					<a class="nav-link dropdown-toggle {{ Request::is('akuntansi') ? 'active-nav' : '' }} {{ Request::is('manajemen') ? 'active-nav' : '' }} {{ Request::is('perbankan-syariah') ? 'active-nav' : '' }}" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Program Studi </a>
 					<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 						<li><a class="dropdown-item {{ Request::is('akuntansi') ? 'active-drop' : '' }}" href="/akuntansi">Akuntasi</a></li>
@@ -32,22 +42,11 @@
 				<li class="nav-item ms-3 dropdown" style="font-weight: 600">
 					<a class="nav-link dropdown-toggle {{ Request::is('pelayanan-mahasiswa') ? 'active-nav' : '' }} {{ Request::is('pembayaran-mahasiswa') ? 'active-nav' : '' }}" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Layanan </a>
 					<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-						<li><a class="dropdown-item {{ Request::is('pelayanan-mahasiswa') ? 'active-drop' : '' }}" href="/pelayanan-mahasiswa">Mahasiswa</a></li>
-						<li><a class="dropdown-item {{ Request::is('pembayaran-mahasiswa') ? 'active-drop' : '' }}" href="/pembayaran-mahasiswa">Pembayaran Mahasiswa</a></li>
-						<li><a class="dropdown-item" href="#">Perpustakaan</a></li>
+						<li><a class="dropdown-item {{ Request::is('pelayanan-mahasiswa') ? 'active-drop' : '' }}" href="/pelayanan-mahasiswa">Alur Akademik</a></li>
 						<li><a class="dropdown-item" href="#">File Unduhan</a></li>
+						<li><a class="dropdown-item {{ Request::is('pembayaran-mahasiswa') ? 'active-drop' : '' }}" href="/pembayaran-mahasiswa">Pendaftaran Akademik</a></li>
+						<li><a class="dropdown-item" href="#">Perpustakaan</a></li>
 					</ul>
-				</li>
-				<li class="nav-item ms-3 dropdown" style="font-weight: 600">
-					<a class="nav-link dropdown-toggle {{ Request::is('sejarah-feb') ? 'active-nav' : '' }} {{ Request::is('visi-misi-feb') ? 'active-nav' : '' }} {{ Request::is('struktur-organisasi') ? 'active-nav' : '' }}" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Profil </a>
-					<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-						<li><a class="dropdown-item {{ Request::is('sejarah-feb') ? 'active-drop' : '' }}" href="/sejarah-feb">Sejarah Feb Unsiq</a></li>
-						<li><a class="dropdown-item {{ Request::is('visi-misi-feb') ? 'active-drop' : '' }}" href="/visi-misi-feb">Visi, Misi, dan Tujuan</a></li>
-						<li><a class="dropdown-item {{ Request::is('struktur-organisasi') ? 'active-drop' : '' }}" href="/struktur-organisasi">Struktur Organisasi</a></li>
-					</ul>
-				</li>
-				<li class="nav-item ms-3" style="font-weight: 600">
-					<a class="nav-link" href="#">SPMI</a>
 				</li>
 			</ul>
 		</div>
